@@ -1,0 +1,31 @@
+@model blog2.ViewModels.PostViewModel
+
+@{
+
+}
+
+  <div class="container my-5">
+
+    <div class="d-flex">
+      <div>
+        <p class="display-2">@Model.Title</p> abu                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+      </div>
+      @if(@Model.CanEdit)
+      {
+        <a class="btn btn-outline-primary my-auto ms-auto" href="/edit/@Model.Id">Edit</a>
+      }
+      else
+      {
+        
+      }
+    </div>
+    <div class="d-flex">
+      @* <span class="text-muted me-2" >@User.Identity.Name</span> *@
+      <span class="text-muted my-auto small me-2 ms-auto" >@Model.CreatedAt.ToString("yyyy MMM dd")</span>
+      @if(Model.Edited)
+      {
+        <span class="text-muted" >Edited</span>
+      }
+    </div>
+    @Html.Raw(Model.Content)
+  </div>

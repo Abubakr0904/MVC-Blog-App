@@ -1,0 +1,76 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = blog2
+build_property.RootNamespace = blog2
+build_property.ProjectDir = /home/abubakr/hackaton/blog/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/abubakr/hackaton/blog
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/abubakr/hackaton/blog/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/abubakr/hackaton/blog/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/abubakr/hackaton/blog/Views/Blogs/GetBlogs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZ3MvR2V0QmxvZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/abubakr/hackaton/blog/Views/Blogs/GetBlogsByTag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZ3MvR2V0QmxvZ3NCeVRhZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/abubakr/hackaton/blog/Views/Blogs/Post.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZ3MvUG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/abubakr/hackaton/blog/Views/Blogs/Write.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZ3MvV3JpdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/abubakr/hackaton/blog/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/abubakr/hackaton/blog/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/abubakr/hackaton/blog/Views/Search/ByTagAndWord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VhcmNoL0J5VGFnQW5kV29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/abubakr/hackaton/blog/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/abubakr/hackaton/blog/Views/Shared/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/abubakr/hackaton/blog/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/abubakr/hackaton/blog/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/abubakr/hackaton/blog/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/abubakr/hackaton/blog/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ujpsh24c6r

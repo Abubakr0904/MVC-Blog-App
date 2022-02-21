@@ -1,0 +1,18 @@
+@model blog2.ViewModels.LoginViewModel
+
+
+<form class="form-signin text-center" asp-action="Login" asp-controller="Account">
+    <input asp-for="ReturnUrl" hidden>
+    <img class="mb-4" src="~/logo.png" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Please sign in or <a class="btn  btn-primary btn-block" type="submit" href="/account/register?returnUrl=@Model.ReturnUrl">Sign up</a> </h1>
+    <input asp-for="Email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+    <input asp-for="Password" type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+    <div class="checkbox mb-3">
+    <label>
+        <input type="checkbox" value="remember-me"> Remember me
+    </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button> <br>
+    <p class="mt-5 mb-3 text-muted">© @DateTime.Now.Year - Blog</p>
+</form>
+

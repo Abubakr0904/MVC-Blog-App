@@ -1,0 +1,37 @@
+@model blog2.ViewModels.BlogsViewModel
+
+@if (Model.Blogs == null || Model.Blogs.Count() < 1)
+{
+    <div class="alert alert-danger" role="alert">
+    <h4 class="alert-heading">No posts ☹️</h4>
+    <p>There are no posts yet. Please write one or come again some other time!</p>
+    <hr>
+    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+</div>
+}
+else
+{
+    <div class="row mx-4 mt-5">
+    @foreach (var blog in Model.Blogs)
+        {
+            <div class="card my-card" style="width: 20rem;">
+                <img class="card-img-top" src="~/logo.png" alt="Card image cap">
+                <div class="card-body">
+                    @if (blog.Tags?.Count() > 0)
+                    {
+                        foreach (var tag in blog.Tags)
+                        {
+                            <a class="badge bg-info text-light mx-1" asp-action="GetBlogsByTag" asp-controller="Blogs" asp-route-id="@tag">#@tag</a>
+                        }
+                    }
+                    <h3 class="mb-1">@blog.Title</h3>
+                    <div class="d-flex">
+                        <div class="mb-1 text-muted">@DateTime.UtcNow.ToString("MMM dd, yyyy")</div>
+                    </div>
+                    @* <p class="card-text">@Html.Raw(blog.Description)</p> *@
+                    <a href="/post/@blog.Id" class="btn btn-primary">Continue reading</a>
+                </div>
+            </div>
+        }
+    </div>
+}

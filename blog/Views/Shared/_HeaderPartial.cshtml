@@ -1,0 +1,34 @@
+@{
+    string query = "";
+}
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container-fluid col-lg-9 col-md-10">
+            <a class="navbar-brand" href="/">
+                <img src="~/logo.png" alt="" height="30" class="d-inline-block align-text-top logo-light-shadow">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blogs">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/write">Write</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/LogOut">Logout</a>
+                    </li>
+                </ul>
+                <form class="d-flex" asp-controller="Search" asp-action="ByTagAndWord" asp-route-id="@query" method="post">
+                    <input class="form-control me-2 btn-outline-edark" type="search" placeholder="Search" name="query" asp-for="@query">
+                    <button class="btn btn-outline-dark" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>

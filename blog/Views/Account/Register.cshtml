@@ -1,0 +1,18 @@
+@model blog2.ViewModels.RegisterViewModel
+
+<form class="form-signup text-center" asp-action="Register" asp-controller="Account">
+    <input asp-for="ReturnUrl" hidden>
+    <img class="mb-4" src="~/logo.png" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Please sign up</h1>
+    <input asp-for="Fullname" type="name" id="input" class="form-control" placeholder="Full Name" required="" autofocus="">
+    <input asp-for="Username" type="username" id="input" class="form-control" placeholder="Username" required="" autofocus="">
+    <input asp-for="Email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+    <input asp-for="Password" type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+    <div class="checkbox mb-3">
+    <label>
+        <input type="checkbox" value="remember-me"> Remember me
+    </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+    <p class="mt-5 mb-3 text-muted">© @DateTime.Now.Year - Blog</p>
+</form>
