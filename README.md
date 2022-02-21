@@ -1,1 +1,2 @@
-# hackaton-16.01.22
+# Simple MVC Blogging App. 
+### It works like the telegraph.io website
